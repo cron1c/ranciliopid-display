@@ -1,0 +1,34 @@
+/********************************************************
+Displayausgabe
+*****************************************************/
+
+void displaymessage(String displaymessagetext, String displaymessagetext2) {
+if (Display == 2) {
+/********************************************************
+DISPLAY AUSGABE
+******************************************************/
+display.setTextSize(1);
+display.setTextColor(WHITE);
+display.clearDisplay();
+display.setCursor(0, 47);
+display.println(displaymessagetext);
+display.print(displaymessagetext2);
+//Rancilio startup logo
+display.drawBitmap(41,2, startLogo_bits,startLogo_width, startLogo_height, WHITE);
+//draw circle
+display.drawCircle(63, 24, 20, WHITE);
+
+display.display();
+}
+if (Display == 1) {
+/********************************************************
+DISPLAY AUSGABE
+******************************************************/
+u8x8.clear();
+u8x8.setFont(u8x8_font_chroma48medium8_r); //Ausgabe vom aktuellen Wert im Display
+u8x8.setCursor(0, 0);
+u8x8.println(displaymessagetext);
+u8x8.print(displaymessagetext2);
+}
+
+}
