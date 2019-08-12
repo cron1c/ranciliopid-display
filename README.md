@@ -1,4 +1,8 @@
 # Display changes for [Rancilio PID](https://github.com/rancilio-pid/ranciliopid "Rancilio PID")
+
+## Wichtig:  Bitte die icon.h herunterladen und in den Projektordner kopieren. In der rancilio-pid am Anfang des Quellcodes einbinden mit 
+`#include "icon.h"` 
+
 Boot Logo ![Boot logo](https://raw.githubusercontent.com/cron1c/ranciliopid-display/master/IMG_20190812_134335__01.jpg)
 PID Display
 ![Display Screen](https://raw.githubusercontent.com/cron1c/ranciliopid-display/master/IMG_20190812_131532__01.jpg)
