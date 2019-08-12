@@ -1,4 +1,4 @@
-# Display changes for [Rancilio PID](https://github.com/rancilio-pid/ranciliopid "Rancilio PID")
+# Display Änderungen für [Rancilio PID](https://github.com/rancilio-pid/ranciliopid "Rancilio PID")
 
 ## Wichtig:  Bitte die icon.h herunterladen und in den Projektordner kopieren. In der rancilio-pid am Anfang des Quellcodes einbinden mit 
 
