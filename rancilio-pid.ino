@@ -365,8 +365,8 @@ void displaymessage(String displaymessagetext, String displaymessagetext2) {
     //draw circle
     display.drawCircle(63, 24, 20, WHITE);
     display.display();
-    display.fadeout();
-    display.fadein();
+   // display.fadeout();
+   // display.fadein();
   }
   if (Display == 1) {
     /********************************************************
