@@ -363,7 +363,7 @@ void displaymessage(String displaymessagetext, String displaymessagetext2) {
     //Rancilio startup logo
     display.drawBitmap(41,2, startLogo_bits,startLogo_width, startLogo_height, WHITE);
     //draw circle
-    display.drawCircle(63, 24, 20, WHITE);
+    //display.drawCircle(63, 24, 20, WHITE);
     display.display();
    // display.fadeout();
    // display.fadein();
