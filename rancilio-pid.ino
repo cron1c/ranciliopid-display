@@ -41,7 +41,7 @@
 //#include "Arduino.h"
 #include <EEPROM.h>
 
-const char* sysVersion PROGMEM  = "Version 1.9.4 Master";
+const char* sysVersion PROGMEM  = "Version 1.9.4-c Master";
 
 /********************************************************
   definitions below must be changed in the userConfig.h file
